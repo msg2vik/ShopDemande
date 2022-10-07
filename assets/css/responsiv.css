@@ -66,3 +66,70 @@ color:#ffffff!important;
 }
 
 }
+
+ /*--cover up mac , mac-book---*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1920px) {
+
+.grocers_card .grocers_card_btn {
+    font-size: 10px;
+	padding: 0px 10px;
+  
+}
+.card-title {
+    font-size: 14px;
+    color: #767676;
+}
+
+.header_login_btn .header_signup_btn {
+    padding: 0.425rem 0.7rem;
+    font-size: 12px;
+}
+
+
+.button {
+    width: 120px;
+}
+.header_login_btn .login_text {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.navbar-tool-icon {
+    font-size: 0.8rem;
+    line-height: 2rem;
+}
+.navbar-tool-icon-box {
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+}
+#button-2 .knobs:after {
+    width: 70px;
+}
+.en-list-li-content
+{
+	font-size:12px;
+}
+.shop_card_font {
+    font-size: 14px;
+}
+.post-meta {
+    font-weight: 600;
+    font-size: 10px;
+}
+.card_title_dot {
+    font-size: 3px;
+}
+
+.quick_service_card h6 {
+    font-size: 10px;
+    line-height: 12px;
+}
+.grocers_product_info span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+}
+

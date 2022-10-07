@@ -1,0 +1,53 @@
+@media (max-width: 767px) {
+.grocers_card .grocers_card_btn {
+    border-radius: 20px;
+    padding: 3px 25px 3px 25px;
+    margin: 0px 3px 0px 0px;
+}
+
+.grocery_banner_content 
+{
+	padding:0px 0px 0px 20px;
+}
+
+.grocery_banner_content h2 {
+  font-size: 35px;
+    
+}
+
+.grocery_banner_content p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.grocery_banner_content .btn {
+    font-size: 14px;
+    
+}
+.banner_btn a {
+    border-radius: 20px;
+    padding: 3px 25px 3px 25px;
+}
+
+.res_burg_color
+{
+color:#ffffff!important;
+}	
+.responsive_toggol_link a
+{
+	color:#000!important;
+}
+
+.navbar-nav {
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none
+}
+.res_cart_icon
+{
+	display:none;
+}
+
+}

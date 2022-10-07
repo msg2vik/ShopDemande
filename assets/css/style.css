@@ -13,6 +13,16 @@ body{
 {
 	margin-top: 3rem;
 }
+.section_headeing_mb
+{
+	margin-bottom:2rem;
+}
+
+.section_headeing h4
+{
+	font-size: 20px;
+    font-weight: 600;
+}
 
 
 /*navbar*/
@@ -204,10 +214,7 @@ ul {
 	
 }
 
-.section_headeing h5
-{
-	font-weight:bold;
-}
+
 
 .quick_service_card h6
 {	font-size: 14px;
@@ -222,27 +229,44 @@ ul {
 
 
 /*banner style*/
-.newsletter {
+.shop_demand_banner  {
     position: relative;
+	margin-top:3rem;
 }
-.grocery_banner {
-    
-    background-image: url(../images/slide-1.jpg);
-    background-size: cover;
-   
-    clear: both;
-   
-    width: 100%;
-    border-radius: 50px;
-    overflow: hidden;
-   
-	background-position: center center;
-	padding-top: 80px;
-    padding-bottom: 30px;
-	
-	
+
+.sec_top_pt
+{
 	
 }
+
+.sec_top_mt {
+    margin-top: 1rem;
+}
+
+
+.sec_bottom_pt
+{
+
+}
+
+.sec_bottom_mt{
+
+}
+
+
+
+.section_space_margin
+{
+	margin-top:3rem;
+	margin-bottom:3rem;
+}
+.section_space_padding
+{
+	padding-top:3rem;
+	padding-bottom:3rem;
+}
+
+
 .padding-y-lg {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -286,7 +310,7 @@ ul {
    
     list-style: none;
     position: relative;
-    padding-bottom: 2px;
+    padding-bottom: 10px;
 }
 
 .grocers_card .grocers_card_btn
@@ -357,6 +381,7 @@ border-radius:20px;
 	
     font-size: 16px;
 	font-weight: bold;
+	color:#767676;
 }
 /**/
 
@@ -369,19 +394,13 @@ border-radius:20px;
 /*footer strat*/
 
 footer {
-    margin-top: 20px;
-    padding: 50px 0 0px;
-
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     background-color: #004195;
 	
 }
 
 .footer_logo
 {
-	width: 100px;
+	width: 150px;
 	margin-bottom: 30px;
 }
 
@@ -404,9 +423,9 @@ footer {
     color: #fff;
     margin-left: auto;
 }
-.footer_block h3 {
+.footer_block h4 {
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
 	font-weight: 600;
 }
@@ -466,7 +485,10 @@ footer {
     text-align: center;
 }
 
-
+.footer_copyright  small
+{
+	font-size:14px;
+}
 
 /*footer end*/
 

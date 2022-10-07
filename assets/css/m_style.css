@@ -350,13 +350,14 @@
   .cd-dropdown-content a, .cd-dropdown-content ul a {
     color: #111433;
     height: 50px;
+    font-weight: 500;
     line-height: 50px;
-    font-size: 1.5rem;
+    font-size: 16px;
     border-color: #ebebeb;
   }
   .cd-dropdown-content .cd-divider, .cd-dropdown-content ul .cd-divider {
     background-color: transparent;
-    color: #b3b3b3;
+    color: #004195;
     border-top: 1px solid #ebebeb;
   }
   .cd-dropdown-content .cd-divider + li > a, .cd-dropdown-content ul .cd-divider + li > a {
@@ -370,7 +371,7 @@
 
 .cd-dropdown-content .see-all a {
   /* different style for the See all links */
-  color: #3f8654;
+  color: #004195;
 }
 .cd-dropdown-content .cd-dropdown-gallery .cd-dropdown-item, .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item {
   /* items with picture (or icon) and title */
@@ -420,13 +421,13 @@
   background-size: 40px 40px;
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-1::before {
-  background-image: url("../img/nucleo-icon-1.svg");
+  background-image: url("../images/nucleo-icon-1.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-2::before {
-  background-image: url("../img/nucleo-icon-2.svg");
+  background-image: url("../images/nucleo-icon-2.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-3::before {
-  background-image: url("../img/nucleo-icon-3.svg");
+  background-image: url("../images/nucleo-icon-3.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-4::before {
   background-image: url("../images/nucleo-icon-4.svg");
@@ -447,7 +448,7 @@
   background-image: url("../images/nucleo-icon-9.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-10::before {
-  background-image: url("../images/");
+  background-image: url("../images/nucleo-icon-10.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-11::before {
   background-image: url("../images/nucleo-icon-11.svg");
@@ -466,7 +467,7 @@
     border-bottom: none;
   }
   .no-touch .cd-dropdown-content > li:not(.has-children) a:hover {
-    color: #3f8654;
+    color: #D7001A;
   }
   .cd-dropdown-content.move-out > li > a, .cd-dropdown-content.move-out > li > .cd-search, .cd-dropdown-content.move-out > .cd-divider {
     /* reset mobile style */
@@ -570,8 +571,8 @@
     background-color: #ebebeb;
   }
   .cd-dropdown-content .cd-secondary-dropdown > li > a {
-    color: #3f8654;
-    font-size: 1.6rem;
+    color: #004195;
+    font-size:16px;
     margin-bottom: 10px;
     line-height: 30px;
     height: 30px;
@@ -616,11 +617,11 @@
   .cd-dropdown-content .cd-secondary-dropdown a {
     line-height: 25px;
     height: 25px;
-    font-size: 1.3rem;
+    font-size: 14px;
     padding-left: 0;
   }
   .no-touch .cd-dropdown-content .cd-secondary-dropdown a:hover {
-    color: #3f8654;
+    color: #004195;
   }
   .cd-dropdown-content .cd-secondary-dropdown ul {
     padding-bottom: 25px;
@@ -659,7 +660,7 @@
     padding: 0;
     height: auto;
     line-height: normal;
-    color: #3f8654;
+    color: #004195;
     margin-bottom: 2em;
   }
   .cd-dropdown-content .cd-dropdown-gallery > li:nth-last-of-type(2) a,
@@ -684,12 +685,13 @@
     background: #ebebeb;
   }
   .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item h3 {
-    color: #3f8654;
-    font-weight: bold;
+    color: #004195;
+    font-weight: 600;
+    font-size: 16px;
   }
   .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item p {
     display: block;
-    font-size: 1.2rem;
+    font-size: 14px;
   }
   .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item::before {
     left: 25px;
@@ -707,14 +709,14 @@
   }
   .cd-dropdown-content > .has-children > a.is-active {
     /* hover effect for .cd-dropdown-content items with subnavigation */
-    box-shadow: inset 2px 0 0 #3f8654;
-    color: #3f8654;
+    box-shadow: inset 2px 0 0 #004195;
+    color: #004195;
   }
   .cd-dropdown-content > .has-children > a.is-active::before, .cd-dropdown-content > .has-children > a.is-active::after {
-    background: #3f8654;
+    background: #004195;
   }
   .open-to-left .cd-dropdown-content > .has-children > a.is-active {
-    box-shadow: inset -2px 0 0 #3f8654;
+    box-shadow: inset -2px 0 0 #004195;
   }
 }
 

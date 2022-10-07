@@ -50,4 +50,19 @@ color:#ffffff!important;
 	display:none;
 }
 
+.cd-dropdown-content .see-all a {
+    color: #fff!important;
+}
+
+.shop_demand_banner  {
+	margin-top:1rem;
+}
+.section_space_padding {
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+}
+.sec_top_mt {
+    margin-top: 2rem;
+}
+
 }

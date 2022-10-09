@@ -319,16 +319,23 @@
 					<div class="knobs"></div>
 					<div class="layer"></div>
 					</div> 
+					
+					
+					<div class="mt-2 text-white delivery_loaction">
+						<span><i class="fa-solid fa-location-dot me-1 "></i>12345</span>
+					</div>
 
 					<!-- Toolbar-->
 					<div class="navbar-toolbar d-flex align-items-center  mt-2"> 
 						<div class="navbar-tool header_login_btn ">
-							<a data-bs-toggle="modal" data-bs-target="#logIn" class="text-white login_text" href="#">Log in</a>
-							<a data-bs-toggle="modal" data-bs-target="#signUp" class="rounded-pill header_signup_btn">Sign up</a>
+							<!--<a class="text-white login_text" href="#">Log in</a>
+							<a class="rounded-pill header_signup_btn" href="#">Sign up</a>-->
+							<img src="assets/images/user_icon.png" class="img-fluid user_profile_img">
 						</div>
 
-						<div class="navbar-tool ms-4 ">
+						<div class="navbar-tool ms-4 res_cart_icon">
 							<a class="navbar-tool-icon-box bg-secondary dropdown-toggle cart_round_box" href="#">
+							<span class="navbar-tool-label">4</span>
 								<i class="navbar-tool-icon custom_cart_color fa-solid fa-cart-shopping"></i>
 							</a>
 						</div> 
@@ -353,212 +360,6 @@
 			</div>
 		</header>
 		<!--navbar end-->
-
-<!--login modal-->
-<div class="modal fade" id="logIn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-<div class="card mb-3 border-0 login_modal">
-  	<div class="row g-0">
-    			<div class="col-md-4 login_left_bg">
-				
-      				<div class=" form_content">
-						<h2 class="text-white">Log in</h2>
-						<small class="text-white">Get access to your order. Wishlist and Recommandations</small>
-					</div>
-					<img src="assets/images/shoping_cart.png" class="img-fluid shoping_cart_img">
-    			</div>
-	
-    		<div class="col-md-8">
-			 <div class="modal-header border-bottom-0 p-3">
-        <h5 class="modal-title" id="exampleModalLabel"></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      			<div class="card-body">
-       				  <div class="main_form mb-3">
-						<form>
-							<div class="mb-3"> <input class="form-control modal_input_style" type="text" id="text-input"  placeholder="Email"></div>
-							 <div class="mb-3"> <input class="form-control modal_input_style" type="text" id="text-input" placeholder="Password"></div>
-							 
-							 <div class="form-text mb-3">Forgot passowrd? <a class="text-red" data-bs-toggle="modal" data-bs-target="#resetPass">Reset it</a></div>
-							 
-							 
-							 <input type="submit" class="btn btn-primary d-block w-100 mb-3 shopDemand_login_btn"  value="Log in">
-							 <div class="row px-3 mb-4">
-								<div class="line"></div>
-								<small class="text-muted or text-center">OR</small>
-								<div class="line"></div>
-							 </div>
-							<div class="login_ac_btn">
-								<a class="btn d-block w-100 mb-2 pb-2 social_ac_btn" href="#">
-									<img src="assets/images/google_icon.png" class="img-fluid ">
-									<span>Continue with google</span>
-								</a>
-								
-								<a class="btn d-block w-100 mb-2 pb-2 social_ac_btn" href="#">
-									<img src="assets/images/facebook_icon.png" class="img-fluid ">
-									<span>Continue with google</span>
-								</a>
-								
-								<a class="btn d-block w-100 mb-2 pb-2 social_ac_btn" href="#">
-									<img src="assets/images/whatshap_icon.png" class="img-fluid ">
-									<span>Continue with google</span>
-								</a>
-							</div>
-							<div class="form-text mb-3 text-center mt-3">Don't have an account? &nbsp;<a data-bs-toggle="modal" data-bs-target="#signUp" class="text-red"> Sign up</a></div>
-						</form>
-					</div>
-      			</div>
-			</div>		
-  		</div>
-</div>
-</div>
-</div>
-<!--login modal-->
-
-<!--reset password-->
-<div class="modal fade" id="resetPass" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-<div class="card mb-3 border-0 login_modal">
-  	<div class="row g-0">
-    			<div class="col-md-4 login_left_bg">
-				
-      				<div class=" form_content">
-						<h2 class="text-white">Forgot password?</h2>
-						<small class="text-white">We'll send a link to reset your password</small>
-					</div>
-					<img src="assets/images/shoping_cart.png" class="img-fluid shoping_cart_img">
-    			</div>
-	
-    		<div class="col-md-8">
-			 <div class="modal-header border-bottom-0 p-3">
-        <h5 class="modal-title" id="exampleModalLabel"></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      			<div class="card-body">
-       				  <div class="main_form mb-3">
-						<form>
-							<div class="mb-3"> <input class="form-control modal_input_style" type="email" id="text-input" value="Email"></div>
-							
-							 
-							
-							 
-							 
-							 <input data-bs-toggle="modal" data-bs-target="#resetPassMsg" type="submit" class="btn btn-primary d-block w-100 mb-3 shopDemand_login_btn" placeholder="Reset password" >
-							 <!--<div class="row px-3 mb-4">
-								<div class="line"></div>
-								<small class="text-muted or text-center">OR</small>
-								<div class="line"></div>
-							 </div>-->
-							<!--<div class="login_ac_btn">
-								<a class="btn d-block w-100 mb-2 pb-2 social_ac_btn" href="#">
-									<img src="assets/images/google_icon.png" class="img-fluid ">
-									<span>Continue with google</span>
-								</a>
-								
-								<a class="btn d-block w-100 mb-2 pb-2 social_ac_btn" href="#">
-									<img src="assets/images/facebook_icon.png" class="img-fluid ">
-									<span>Continue with google</span>
-								</a>
-								
-								<a class="btn d-block w-100 mb-2 pb-2 social_ac_btn" href="#">
-									<img src="assets/images/whatshap_icon.png" class="img-fluid ">
-									<span>Continue with google</span>
-								</a>
-							</div>-->
-							<div class="form-text mb-3 text-center mt-3">Don't have an account? &nbsp;<a class="text-red" data-bs-toggle="modal" data-bs-target="#signUp"> Sign up</a></div>
-						</form>
-					</div>
-      			</div>
-			</div>		
-  		</div>
-</div>
-</div>
-</div>
-<!--reset password-->
-<!--check your inbox modal-->
-	
-<div class="modal fade" id="resetPassMsg" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content check_msg_modal">
-      <div class="modal-header">
-       
-        <button type="button" class="btn-close border-bottom-0" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body check_msg_body">
-        <h2>Check your inbox</h2>
-		<p>If that email matches an account, you'll get a link to reset your password within few minutes.</p>
-		<input data-bs-toggle="modal" data-bs-target="#logIn" type="submit" class="btn btn-primary d-block w-100 mb-3 shopDemand_login_btn"  value="Go back to login">
-      </div>
-      
-    </div>
-  </div>
-</div>
-<!--check your inbox modal-->
-
-
-<!--signup modal strat -->
-<div class="modal fade" id="signUp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-<div class="card mb-3 border-0 login_modal">
-  	<div class="row g-0">
-    			<div class="col-md-4 login_left_bg">
-				
-      				<div class=" form_content">
-						<h2 class="text-white">Sign up</h2>
-						<small class="text-white">Looks like you'r now here!</small>
-					</div>
-					<img src="assets/images/shoping_cart.png" class="img-fluid shoping_cart_img">
-    			</div>
-	
-    		<div class="col-md-8">
-			 <div class="modal-header border-bottom-0 p-3">
-        <h5 class="modal-title" id="exampleModalLabel"></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      			<div class="card-body">
-       				  <div class="main_form mb-3">
-						<form>
-							<div class="mb-3"> <input class="form-control modal_input_style" type="text" id="text-input"  placeholder="Email"></div>
-							
-							 
-							 <div class="form-check mb-1">
-							  <input class="form-check-input" type="checkbox" id="ex-check-1">
-							  <label class="form-check-label checkbox_level" for="ex-check-1 text-gray">By continuing, your agree to our <span class="text-red">Terms of service</span> & <span class="text-red">Privacy Policy</span> </label>
-							</div>
-							 
-							 
-							 <input type="submit" class="btn btn-primary d-block w-100 mb-3 shopDemand_login_btn"  value="Sign up">
-							 <div class="row px-3 mb-4">
-								<div class="line"></div>
-								<small class="text-muted or text-center">OR</small>
-								<div class="line"></div>
-							 </div>
-							<div class="login_ac_btn">
-								<a class="btn d-block w-100 mb-2 pb-2 social_ac_btn" href="#">
-									<img src="assets/images/google_icon.png" class="img-fluid ">
-									<span>Continue with google</span>
-								</a>
-								
-								<a class="btn d-block w-100 mb-2 pb-2 social_ac_btn" href="#">
-									<img src="assets/images/facebook_icon.png" class="img-fluid ">
-									<span>Continue with google</span>
-								</a>
-								
-								<a class="btn d-block w-100 mb-2 pb-2 social_ac_btn" href="#">
-									<img src="assets/images/whatshap_icon.png" class="img-fluid ">
-									<span>Continue with google</span>
-								</a>
-							</div>
-							<div class="form-text mb-3 text-center mt-3">Already have an account?<a data-bs-toggle="modal" data-bs-target="#logIn" class="text-red" href="#"> Log in</a></div>
-						</form>
-					</div>
-      			</div>
-			</div>		
-  		</div>
-</div>
-</div>
-</div>
-<!--sign up moda end-->
 
 
 		<!--comapny logo slider-->
@@ -667,16 +468,7 @@
 			</div>
 		</section>
 		<!--comapny logo slider-->
- <!-- Button trigger modal -->
-<!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>-->
-
-<!-- Modal -->
-
-
-
-
+ 
 		<!--banner strat -->
 		<section class="shop_demand_banner ">
 			<div class="container"> 

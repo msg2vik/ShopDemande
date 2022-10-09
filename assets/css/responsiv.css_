@@ -4,9 +4,6 @@
     padding: 3px 25px 3px 25px;
     margin: 0px 3px 0px 0px;
 }
-.navbar-tool-icon {
-font-size: 0.9rem;
-}
 
 .grocery_banner_content 
 {
@@ -48,10 +45,10 @@ color:#ffffff!important;
 	margin-bottom: 0;
 	list-style: none
 }
-/*.res_cart_icon
+.res_cart_icon
 {
 	display:none;
-}*/
+}
 
 .cd-dropdown-content .see-all a {
     color: #fff!important;
@@ -68,52 +65,29 @@ color:#ffffff!important;
     margin-top: 2rem;
 }
 
-/*toggol style */
-
-.#button-2 .knobs:before, #button-2 .knobs:after {
-    width: 70px;
-}
-#button-2 .knobs:before, #button-2 .knobs:after {
-    width: 70px;
-}
-.button {
-    width: 140px;
-}
-
-.button {
-    width: 120px;
-}
-/*toggol style*/
-.shoping_cart_img
-{
-	width:50px;
-	float:right;
-}
-.form_content {
-    background: #004195;
-    padding: 25px 20px 20px 20px;
-}
-
-.shoping_cart_img
-{
-	display:none;
-}
-
-.login_left_bg {
-    border-top-right-radius: 20px;
-}
 }
 
  /*--cover up mac , mac-book---*/
 
 @media only screen and (min-width: 1024px) and (max-width: 1920px) {
 
-.grocers_card .grocers_card_btn {
-    font-size: 11px;
+
+
+}
+
+
+@media only screen 
+   and (max-width : 1000px) 
+   and (max-height : 1000px) {
+   
+   
+   
+      .grocers_card .grocers_card_btn {
+    font-size: 10px;
 	padding: 0px 10px;
   
 }
-.service_card .card-title {
+.card-title {
     font-size: 14px;
     color: #767676;
 }
@@ -133,18 +107,16 @@ color:#ffffff!important;
 }
 
 .navbar-tool-icon {
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 2rem;
 }
-/*.navbar-tool-icon-box {
+.navbar-tool-icon-box {
     width: 2rem;
     height: 2rem;
     line-height: 2rem;
-}*/
-#button-2 .knobs:before, #button-2 .knobs:after {
-   
+}
+#button-2 .knobs:after {
     width: 70px;
-  
 }
 .en-list-li-content
 {
@@ -170,33 +142,11 @@ color:#ffffff!important;
     font-weight: 600;
 }
 
-}
 
-
-@media only screen and (min-width: 1024px) and (max-width: 1024px) {
-.grocers_card .grocers_card_btn {
-    font-size: 9px;
-    padding: 0px 8px;
-	font-weight:600;
-}
-.hrader_logo
-{
-	width:100px;
-}
-
-.footer-social-icon > a > i {
+#button-2 .knobs:before, #button-2 .knobs:after {
    
-    font-size: 16px;
-    color: #000;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-   
-}
-
-.playstore_img
-{
-	width:100px;
-}
+    width: 70px;
 
 }
+
+   }

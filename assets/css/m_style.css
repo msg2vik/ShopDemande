@@ -2,7 +2,7 @@
 .cd-dropdown-wrapper {
   display: inline-block;
   position: relative; 
-  z-index: 5;
+  z-index: 9999;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -102,6 +102,41 @@ color:#ffffff!important;
 .login_left_bg {
     border-top-right-radius: 20px;
 }
+
+/*products page*/
+.custom-product-tab .custum-tab-btn
+{
+	 font-size: 10px;
+	 font-weight: 600;
+}
+
+.tab_product {
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.view_product_tab_heading {
+    font-size: 9px;
+}
+
+.tab_product_heading {
+    margin-left: 3.6rem;
+    font-size: 9px;
+}
+.tab_compnay_sticker {
+    margin-top: -5rem;
+    width: 45px;
+}
+.search_page_tab_heading {
+    margin-top: 20px;
+}
+
+.all-product-hrading h2
+{
+	font-size: 14px;
+	margin-top: 15px;
+    font-weight: 600;
+}
+
 }
 
  /*--cover up mac , mac-book---*/
@@ -198,5 +233,23 @@ color:#ffffff!important;
 {
 	width:100px;
 }
+.product-grid .product-link a {
+    font-size: 12px;
+    width: 47%;
+}
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 900px) { /* Your Styles... */ 
+
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1050px) { /* Your Styles... */ 
+
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 800px) { /* Your Styles... */ 
+
+}
+@media only screen and (min-height: 800px) { /* Your Styles... */ 
 
 }

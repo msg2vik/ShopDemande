@@ -68,6 +68,7 @@ a {
 .user_profile_img
 {
 	width:35px;
+	border-radius: 50%;
 }
 .delivery_loaction span , i
 {
@@ -1239,6 +1240,15 @@ footer {
 
 
 /*product slider add to cart*/
+/*.product-grid:hover
+{
+	border: 1px solid #0aad0a;
+    box-shadow: 0 5px 12px rgb(0 0 0 / 12%);
+    transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+}*/
 .product-grid{
    border-radius: 20px !important;
     text-align: center;
@@ -1322,7 +1332,7 @@ footer {
 .product-grid .product-links li a:hover:after{
     display: block;
 }
-.product-grid .product-content{ padding: 25px 12px; }
+.product-grid .product-content{ padding: 25px 12px 25px 12px; }
 .product-grid .title{
     font-size: 14px;
     font-weight: 600;
@@ -1431,7 +1441,7 @@ text-align: center;
 }
 
 .bn54 .bn54span {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
  
   font-size: 12px;
   font-weight: 500;
@@ -1658,4 +1668,304 @@ color: rgb(43, 120, 198);
 .btn-check:focus+.btn, .btn:focus {
     outline: 0;
     box-shadow: none !important;
+}
+.shop_features_box2 .features_content 
+{
+	font-size:12px;
+	font-weight: 500;
+
+}
+
+/*profile style start */
+/*.profile-sidebar-style
+{
+	background:#fff!important;
+	color:#4b566b;
+}	*/
+.profile-sidebar-style .nav-link.active{
+    color: #fff !important;
+    background-color: #004195 !important;
+}
+
+.profile-sidebar-style .nav-link.active {
+    box-shadow: 0 0.5rem 1.125rem -0.5rem rgb(249 249 249 / 90%);
+}
+
+.user-profile-style
+{
+	border: 1px solid #eee !important;
+	color:#004195 !important;
+	background:#fff !important;
+	padding: 18px 20px 18px 20px!important;
+	font-weight: 500;
+	
+}	
+.profile-sidebar-style .nav-link.active i
+{
+	color:#fff;
+}	
+.profile-sidebar-style .nav-link i
+{
+	color:#004195;
+}
+.user-profile-icon{
+	color:#004195;
+}
+.responsive-user-profile-icon
+.nav-link.active::before {
+    background-color: #004195;
+}
+
+.profile-upload-area
+{
+	background:#f6f9fc;
+}
+.profile-img-update-btn
+{
+	border-color: #fff;
+    background-color: #fff;
+	box-shadow: 0 0.5rem 1.125rem -0.5rem rgb(0 0 0 / 15%);
+}
+
+.profile-img-update-btn:hover
+{
+	box-shadow: none;
+}
+/*profile tyle end*/
+
+
+.border-dash
+{
+	border: 2px dashed;
+	border-color: #ddd;
+}
+
+.profile-edit-form
+{
+	border: 1px solid #ddd;
+    padding: 1rem 1rem;
+}
+.profile-edit-address
+{
+	border: 1px solid #ddd;
+    padding: 1rem 1rem;
+}
+
+/*custom file upload*/
+
+/*.file-upload {
+  background-color: #ffffff;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}*/
+
+.file-upload-btn {
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #1FB264;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #15824B;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*.file-upload-btn:hover {
+  background: #1AA059;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}*/
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+	padding: 60px 0px;
+ 	margin-top: 20px;
+    border: 2px dashed #ddd;
+    position: relative;
+	margin-bottom: 3rem;
+}
+
+/*.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #1FB264;
+  border: 4px dashed #ffffff;
+}*/
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+ 	font-size: 13px;
+    font-weight: 300;
+    
+    color: #004195;
+    font-weight: 500;
+}
+
+.drag-text small
+{
+	font-style: italic;
+	font-size:10px;
+}
+
+.file-upload-image {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.upload-icon
+{
+	color:#004195;
+}
+
+.remove-image {
+  width: 200px;
+  margin: 0;
+  color: #fff;
+  background: #cd4535;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+*/
+/*.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}*/
+
+
+/*order history*/
+
+.order-history-product-name h6
+{
+	font-size: 14px;
+    font-weight: 500;
+}
+.order-history-product-name p
+{
+	font-size: 12px;
+    color: #687980;
+    margin-top: 5px;
+}
+.order-history-peice h6
+{
+	font-size:14px;
+	font-weight:600;
+}
+.order-history-peice
+{
+	width:80px;
+}
+.order-history-product-img
+{
+	width:80px;
+}
+
+.your-order-heading h2
+{	
+	
+	font-weight:600;
+	
+}	
+
+.shoping-buttons
+{
+	border-radius: 20px;
+    font-size: 14px;
+	background:#004195;
+	color:#fff;
+}
+.shoping-buttons:hover
+{
+	color:#fff;
+}
+
+.shoping-buttons i
+{
+	font-size: 12px;
+}
+.order-history-section
+{
+	margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.btn-label i
+{
+	font-size:14px;
+}
+
+.update-section-gap
+{
+	padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.all-feather-icon
+{
+	width:20px;
+}
+.profile-tab-heading h6
+{
+	font-weight:600;
+}
+.profile-tab-heading p
+{
+	font-size: 14px;
+    line-height: 20px;
+}	
+.trash-iocn-clr
+{
+	color:#d7001a;
+}
+.profile-settings-page
+{
+	margin-top: 4rem;
+    margin-bottom: 4rem;
 }

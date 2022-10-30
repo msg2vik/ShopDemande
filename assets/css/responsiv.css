@@ -137,8 +137,60 @@ color:#ffffff!important;
     font-weight: 600;
 }
 
+
+.cart__table--header__list {
+    padding: 0 2rem 2rem 0;
 }
 
+.cart__table--body__list {
+    padding: 2rem 2rem 2rem 0;
+}
+
+.cart__content--title {
+    line-height: 2.5rem;
+}
+.cart__table--body__list {
+    padding: 2rem 2rem 2rem 0;
+}
+
+.order-history-product-name h6
+{
+	font-size: 10px;
+    font-weight: 500;
+}
+.order-history-product-name p
+{
+	font-size: 8px;
+    color: #687980;
+    margin-top: 5px;
+}
+.order-history-peice h6 {
+    font-size: 12px;
+    font-weight: 500;
+}
+.order-history-peice
+{
+	width:55px;
+}
+.order-history-product-img
+{
+	width:50px;
+}
+
+
+.order-history-product-item
+{
+	padding: 8px 10px 8px 10px;
+}
+
+.shoping-buttons {
+    border-radius: 20px;
+    font-size: 12px;
+}
+.image-upload-wrap {
+    padding: 30px 0px;
+   
+}
  /*--cover up mac , mac-book---*/
 
 @media only screen and (min-width: 1024px) and (max-width: 1920px) {
@@ -252,4 +304,19 @@ color:#ffffff!important;
 }
 @media only screen and (min-height: 800px) { /* Your Styles... */ 
 
+}
+
+@media only screen and (min-width: 992px){
+.cart__table--header__list {
+    font-size: 1.5rem;
+	}
+	.cart__price {
+    font-size: 1.6rem;
+}
+}
+
+
+@media only screen and (min-width: 1200px)
+.cart__content {
+    padding-left: 2rem;
 }
